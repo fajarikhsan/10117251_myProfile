@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fajar_ikhsanul_f">Fajar Ikhsanul F</string>
+    <string name="_10117251">10117251</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+    <string name="exit">Exit</string>
+    <string name="app">App</string>
+    <string name="about">Aplikasi ini dapat menambah data teman anda, menampilkan, mengubah data, dan menghapus data teman anda.
+        Aplikasi ini dibuat untuk memenuhi tugas pengganti uas dari mata kuliah Aplikasi
+    Komputasi bergerak.</string>
+</resources>

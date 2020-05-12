@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityEdit"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:padding="25dp"
+        android:text="Edit Teman"
+        android:fontFamily="sans-serif"/>
+
+    <EditText
+        android:id="@+id/et_nimE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIM"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <EditText
+        android:id="@+id/et_namaE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Nama"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <EditText
+        android:id="@+id/et_kelasE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Kelas"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <EditText
+        android:id="@+id/et_teleponE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Telepon"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <EditText
+        android:id="@+id/et_emailE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <EditText
+        android:id="@+id/et_instaE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Instagram"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <Button
+        android:id="@+id/btn_simpanE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:text="SIMPAN"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+</LinearLayout>

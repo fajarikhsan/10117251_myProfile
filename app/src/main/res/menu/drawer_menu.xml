@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+    </group>
+
+    <item android:title="Tentang Saya">
+        <menu>
+            <item
+                android:id="@+id/profile"
+                android:icon="@drawable/ic_account"
+                android:title="Profil" />
+            <item
+                android:id="@+id/kontak"
+                android:icon="@drawable/ic_contacts"
+                android:title="Kontak" />
+            <item
+                android:id="@+id/daftar_teman"
+                android:icon="@drawable/ic_peopl"
+                android:title="Daftar Teman" />
+        </menu>
+    </item>
+
+    <item android:title="@string/app">
+        <menu>
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/ic_exit"
+                android:title="@string/exit" />
+        </menu>
+    </item>
+
+</menu>
